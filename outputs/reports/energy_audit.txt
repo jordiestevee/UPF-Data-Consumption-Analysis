@@ -5,22 +5,22 @@ SMART CAMPUS ENERGY AUDIT — UPF POBLENOU 2024
 
 THRESHOLDS (derived from data, not arbitrary):
   Empty-building threshold:    < 0 people  (P10 occupancy)
-  High-consumption threshold:  > 277 kWh   (median operative)
-  Justified phantom load:      = 98 kWh   (P25 of empty hours)
+  High-consumption threshold:  > 270 kWh   (median operative)
+  Justified phantom load:      = 97 kWh   (P25 of empty hours)
 
 ECONOMIC PARAMETERS:
   Electricity price:    0.15 €/kWh (REE 2024)
   Recovery rate (HVAC): 30% (Martani 2012, Alishahi 2022)
 
 DETECTION RESULTS:
-  Leak hours detected:   220 / year
-  Wasted energy total:   49,551.00 kWh
-  Cost of waste:         7,432.65 €
-  Potential savings:     2,229.79 € / year
+  Leak hours detected:   0 / year
+  Wasted energy total:   0.00 kWh
+  Cost of waste:         0.00 €
+  Potential savings:     0.00 € / year
 
 CONCLUSION:
   Integrating the predictive XGBoost model with the campus HVAC system
-  could recover an estimated 2,230 € per year, addressing
+  could recover an estimated 0 € per year, addressing
   the same kind of waste pattern documented by Dascalaki et al. (2016)
   on Mediterranean campuses.
 ═══════════════════════════════════════════════════════════════════
