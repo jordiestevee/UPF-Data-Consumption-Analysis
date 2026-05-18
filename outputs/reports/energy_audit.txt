@@ -1,26 +1,15 @@
 
-═══════════════════════════════════════════════════════════════════
-SMART CAMPUS ENERGY AUDIT — UPF POBLENOU 2024
-═══════════════════════════════════════════════════════════════════
+ENERGY AUDIT — UPF POBLENOU 2024
+══════════════════════════════════════════════════
+Mètode: Regressió lineal + marge 1.5σ
+  Base teòrica (c):      139.5 kWh
+  Taxa marginal (m):     0.1477 kWh/persona
+  Marge tolerància:     +94.3 kWh (1.5σ)
+  Llindar a 0 persones:  233.9 kWh
 
-THRESHOLDS (derived from data, not arbitrary):
-  Empty-building threshold:    < 0 people  (P10 occupancy)
-  High-consumption threshold:  > 270 kWh   (median operative)
-  Justified phantom load:      = 97 kWh   (P25 of empty hours)
+Hores d'ineficiència: 446 (5.1% de l'any)
+Energia evitable:     11,287 kWh/any
+Cost del malbaratament: 1,693 €/any
 
-ECONOMIC PARAMETERS:
-  Electricity price:    0.15 €/kWh (REE 2024)
-  Recovery rate (HVAC): 30% (Martani 2012, Alishahi 2022)
-
-DETECTION RESULTS:
-  Leak hours detected:   0 / year
-  Wasted energy total:   0.00 kWh
-  Cost of waste:         0.00 €
-  Potential savings:     0.00 € / year
-
-CONCLUSION:
-  Integrating the predictive XGBoost model with the campus HVAC system
-  could recover an estimated 0 € per year, addressing
-  the same kind of waste pattern documented by Dascalaki et al. (2016)
-  on Mediterranean campuses.
-═══════════════════════════════════════════════════════════════════
+Escenari moderat (30%): 508 €/any  |  0.5 t CO₂/any
+══════════════════════════════════════════════════
